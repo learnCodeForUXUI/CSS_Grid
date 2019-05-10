@@ -1,0 +1,26 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.cell {
+    background-color: rgb(220, 220, 220);
+    height: 100px;
+}
+header {
+    grid-column: 1 / 4;
+    height: 300px!important;
+}
+nav {
+    grid-column: 1 / 4;
+    height: 30px!important;
+}
+aside {
+    grid-column: 1;
+    grid-row-end: span 2;
+    height: auto!important;
+}
+footer {
+    grid-column-end: span 3;
+    grid-row-end: span 2;
+}

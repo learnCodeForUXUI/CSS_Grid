@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+nav {
+    background: rgb(100, 100, 100);
+    color: #fff;
+    padding: 20px;
+}
+.featured {
+    width: 100vw;
+    height: 80vh;
+    background: rgb(200, 200, 200);
+    display: grid;
+}
+.featuredText {
+    width: 40%;
+    padding: 20px;
+    /*    justify-self: end;*/
+    align-self: end;
+    margin: 0 auto;
+    /*    margin: auto auto;*/
+}
